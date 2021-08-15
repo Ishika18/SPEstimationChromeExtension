@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Story Point Estimation</title>
+</head>
+<body>
+    <div class="container">
+        <label for="Dev">Dev:</label><br>
+        <select name="Dev" id="dev">
+          <option value="1">Within a day</option>
+          <option value="2">Within 2 days</option>
+          <option value="3">Within 3 days</option>
+          <option value="5">Within a week</option>
+          <option value="8">Within a sprint</option>
+        </select>
+        <br><br>
+        <label for="QA">QA:</label><br>
+        <select name="QA" id="qa">
+          <option value="simple">Simple</option>
+          <option value="complex">Complex</option>
+        </select>
+        <br><br>
+        <label for="Blocker">Blocker:</label><br>
+        <select name="Blocker" id="blocker">
+          <option value="none">None</option>
+          <option value="known">Known</option>
+          <option value="unknown">Unknown</option>
+        </select>
+        <br><br>
+        <br>
+        <label>Estimation: </label>
+        <text id="estimation">1</text>
+    </div>
+</body>
+<script src="popup.js"></script>
+</html>
